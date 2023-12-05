@@ -1,0 +1,176 @@
+.headerWrapper {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-around;
+}
+
+.micWrapper {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    width: 60px;
+    height: 40px;
+}
+
+.micContent {
+    display: block;
+    width: 100%;
+    height: 65%;
+}
+
+.micText {
+    display: block;
+    height: 35%;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ModalArea {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 60px;
+    overflow: scroll;
+    -webkit-scrollbar-track: rgba(0,0,0,0.5);
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    -webkit-mask-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 20px, black 70px, rgb(0, 0, 0) -webkit-calc(100% - 100px) );
+}
+
+.ChatArea {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.ChatElmWrapper {
+    width: 95%;
+    margin: 0 auto 5px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.ChatElmName {
+    font-size: 0.70rem;
+    color: white;
+    opacity: .8;
+}
+
+.ChatElmContent {
+    font-size: 0.80rem;
+    color: white;
+    opacity: .8;
+}
+
+
+.ManageAudienceModalArea {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 60px;
+    overflow: scroll;
+    -webkit-scrollbar-track: rgba(0,0,0,0.5);
+    background-color: rgba(131, 131, 131, 0.5);
+    -webkit-mask-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 10px, black 30px, rgb(0, 0, 0) -webkit-calc(100% - 30px) );
+}
+
+.ManageAudienceWrapper {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.ManageAudienceTitle {
+    position: fixed;
+    bottom: calc(60px + 300px);
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    background: black;
+    box-shadow: 0px 6px 4px 2px rgba(103, 103, 103, 0.45);
+}
+
+.ManageAudienceTitle > h3 {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.ManageAreaElmWrap {
+    width: 95%;
+    margin: 10px auto 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.ManageAreaElmName {
+    font-size: 0.8rem;
+    color: white;
+    opacity: .8;
+    margin-right: 20px;
+}
+
+.ManageElmContent {
+    font-size: 0.8rem;
+    color: white;
+    opacity: .8;
+    margin-right: 20px;
+}
+
+.ManageElmButton {
+    position: absolute;
+    padding: 5px 10px;
+    background: red;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: rgb(217, 217, 217);
+    right: 0;
+    transform: translate(-15px, -5px);
+    background-color: rgba(85, 85, 85, 0.4);
+}
+
+.InquaryModalArea {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    bottom: 60px;
+    padding: 20px 0;
+    overflow: scroll;
+    -webkit-scrollbar-track: rgba(0,0,0,0.5);
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    -webkit-mask-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 20px, black 70px, rgb(0, 0, 0) -webkit-calc(100% - 100px) );
+}
+
+.InquaryChatElmName {
+    font-size: 0.70rem;
+    color: white;
+    opacity: .8;
+}
+
+.InquaryChatElmContent {
+    font-size: 0.90rem;
+    color: white;
+    opacity: .8;
+}
+
+.InquaryChatElmContent > h3 {
+    font-size: 0.80rem;
+    color: white;
+    opacity: .8;
+}
+
+.commentInputArea {
+    position: absolute;
+    opacity: 1;
+    width: 95%;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+}

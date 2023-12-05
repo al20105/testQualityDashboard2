@@ -1,0 +1,49 @@
+.profileInner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profileWrapper {
+    position: absolute;
+    display: block;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profileDetailWrapper {
+    margin: 20px 0;
+    background: rgb(244, 244, 244);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.profileDetailInner {
+    padding: 20px;
+}
+
+.profileDetailInner > h5 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.prepareBtn {
+    position: relative;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+	transition: background-color 1s;
+}
+
+.prepareBtn:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+	background-color: #ff70ea; 
+	transition: background-color 1s;
+}

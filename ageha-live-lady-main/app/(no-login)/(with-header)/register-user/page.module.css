@@ -1,0 +1,113 @@
+.maxWidth {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.width40 {
+    width: 40%;
+}
+
+.dis_flex {
+    position: relative;
+    display: flex;
+}
+
+.ta_center {
+    text-align: center;
+}
+
+.il-block {
+    display: inline-block;
+}
+
+.required::after {
+    position: absolute;
+    content: "必須";
+    color: #ffffff;
+    background: #cc0000;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    margin-left: 0.3em;
+}
+
+.formTitle {
+    font-size: 20px;
+    color: #fffffb;
+    margin: 3rem 0 1.4em;
+    padding: 0.3em 0 0.3em 0.5em;
+    background: #f29c9f;
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: 0 5px 3px #c8baa7;
+}
+.formTitle:before {
+    color: #fffffb;
+    content: '●';
+}
+
+.elmTitle {
+    font-size: 16px;
+    margin: 1.4em 0;
+    padding-left: 0.5em;
+    border-bottom: 10px dotted #f29c9f;
+}
+.elmTitle:before {
+    color: #f29c9f;
+    content: '✔︎';
+    padding-right: .5em;
+}
+
+.errMessArea {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #ff009c;
+    color: #666;
+    background: #ffebef;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.frontIdentification {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.validIdentification {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.identSubTitle {
+    font-size: 1.0em;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: -30px;
+}
+
+.rearIdentification {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.faceIdentification {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.alertIdentification {
+    width: 90%;
+    margin: 0 auto;
+    color: crimson;
+}
