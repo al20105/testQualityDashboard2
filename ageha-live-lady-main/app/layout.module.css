@@ -1,9 +1,0 @@
-.bodyWrapper {
-    /* position: absolute; */
-    /* background-image: url("../public/images/liver_top_body_background.jpg");
-    background-size: cover; */
-    object-fit: cover;
-    object-position: right 0px;
-    width: 100%;
-    height: 100vh;
-}
